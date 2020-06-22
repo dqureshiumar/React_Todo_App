@@ -6,8 +6,6 @@ import AddForm from './AddForm';
 class App extends Component{
   state = {
     todos : [
-      {id : 1,content: 'Learn React'},
-      {id : 2,content: 'Do Competitive'},
     ]
   }
 
