@@ -25,7 +25,9 @@ class AddForm extends Component{
                     <label>Add a new Todo:</label>
                     <input type="text" onChange={this.handleChange} value={this.state.content}/>
                 </form>
+				<button onClick={this.handleSubmit} className="waves-effect waves-light btn-small">Add Todo</button>
             </div>
+			
         )
     }
 }
