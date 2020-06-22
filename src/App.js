@@ -31,6 +31,7 @@ class App extends Component{
         <h1 className="center blue-text">Todos</h1>
         <Todos todos={this.state.todos} deleteTodo = {this.deleteTodo}/>
         <AddForm addTodo={this.addTodo}/>
+		<p class="center">click on a Todo to delete it</p>
       </div>
     );
   }
