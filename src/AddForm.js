@@ -23,9 +23,10 @@ class AddForm extends Component{
             <div>
                 <form onSubmit={this.handleSubmit}>
                     <label>Add a new Todo:</label>
-                    <input type="text" onChange={this.handleChange} value={this.state.content}/>
+                    <input type="text" onChange={this.handleChange} value={this.state.content} required/>
+					<input type="submit" className="waves-effect waves-light btn-small" value="Add Todo"/>
                 </form>
-				<button onClick={this.handleSubmit} className="waves-effect waves-light btn-small">Add Todo</button>
+				
             </div>
 			
         )
